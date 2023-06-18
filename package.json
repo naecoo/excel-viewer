@@ -12,7 +12,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/papaparse": "^5.3.7",
     "typescript": "^5.0.4",
     "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
   }
 }
