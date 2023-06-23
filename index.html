@@ -4,9 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Excel Viewer</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        padding: 1em 2em;
+        border-bottom: 1px solid #eee;
+      }
+    </style>
   </head>
   <body>
-    <input type="file" name="file" id="file">
+    <header>
+      <input type="file" name="file" id="file" accept=".xlsx,.xls,.csv" />
+    </heade>
+    <main></main>
   </body>
   <script defer type="module" src="index.ts"></script>
 </html>
