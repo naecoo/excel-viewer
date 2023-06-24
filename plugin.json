@@ -1,0 +1,18 @@
+{
+  "main": "./dist/index.html",
+  "logo": "logo.png",
+  "pluginSetting": {
+    "single": true
+  },
+  "features": [
+    {
+      "code": "Excel Viewer",
+      "explain": "查看 xlsx, csv 文件",
+      "cmds": [
+        "excel",
+        "xlsx",
+        "csv"
+      ]
+    }
+  ]
+}
